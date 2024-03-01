@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(45deg, #190361, #BB00FF);
+    background-size: 400% 400%;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background: #FFFFFF;
+    width: 42.8rem;
+    height: 56.4rem;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.home {
+    width: 30.0rem;
+    height: 31.2rem;
+    margin: 6rem;
+}
+
+.home h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #34355B;
+    font-size: 2.4rem;
+    width: 25.8rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.home p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #34355B;
+    width: 19.2rem;
+    height: 2.0rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+#biscoito {
+    margin-top: 5rem;
+    width: 30.0rem;
+    height: 20.0rem;
+}
+
+/*screen1*/
+
+.sorte {
+    width: 30.0rem;
+    height: 46.8rem;
+    margin: 4.8rem 6.4rem ;
+}
+
+.sorte h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #34355B;
+    font-size: 2.4rem;
+    width: 29.8rem;
+    height: 5,8rem;
+    text-align: center;
+}
+
+#frase  {
+    border-radius: 2px;
+    background: #E4EDF1;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    width: 27.3rem;
+    height: 8.7rem;
+    padding: 1rem;
+    margin-left: 0.3rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    box-shadow: 2px 2px grey;
+}
+
+#btnReset {
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    border: 1px solid #FF9500;
+    border-radius: 5px;
+    width: 17.4rem;
+    height: 5.2rem;
+    margin: 1.6rem;
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+
+#btnReset:hover {
+    background-color: #e68600;
+    cursor: pointer;
+}
+
+
+#biscoito:hover {
+    animation: vibrate 0.1s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes vibrate {
+    0% {margin-left: 0;}
+    25% {margin-left: 3px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -3px;}
+    100% {margin-left: 0;}
+  }
+
+  
